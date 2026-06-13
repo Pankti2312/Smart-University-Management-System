@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_payment_status" table="x_1920019_smart_0_fee_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_payment_status</element>
+            <name>x_1920019_smart_0_fee_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 07:33:37</sys_created_on>
+            <sys_id>0ab1414883ad4398bdfd78c6feaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_payment_status</sys_name>
+            <sys_package display_value="Smart University Management System" source="x_1920019_smart_0">5b5b283383dd0f58bdfd78c6feaad39d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart University Management System">5b5b283383dd0f58bdfd78c6feaad39d</sys_scope>
+            <sys_update_name>sys_choice_x_1920019_smart_0_fee_details_u_payment_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 07:33:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_payment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failed</label>
+            <language>en</language>
+            <name>x_1920019_smart_0_fee_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 07:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecd1018c83ad4398bdfd78c6feaad359</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 07:34:13</sys_updated_on>
+            <value>failed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_payment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paid</label>
+            <language>en</language>
+            <name>x_1920019_smart_0_fee_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 07:33:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94c14d4c83ad4398bdfd78c6feaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 07:33:55</sys_updated_on>
+            <value>paid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_payment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_1920019_smart_0_fee_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 07:33:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44a1454c83ad4398bdfd78c6feaad32b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 07:33:37</sys_updated_on>
+            <value>pending</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_fee_paid" label="Fee Paid" language="en" table="x_1920019_smart_0_sums_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_fee_paid</element>
+            <help/>
+            <hint/>
+            <label>Fee Paid</label>
+            <language>en</language>
+            <name>x_1920019_smart_0_sums_application</name>
+            <plural>Fee Paids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-13 06:55:17</sys_created_on>
+            <sys_id>ecf8b4c4832d4398bdfd78c6feaad3c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fee Paid</sys_name>
+            <sys_package display_value="Smart University Management System" source="x_1920019_smart_0">5b5b283383dd0f58bdfd78c6feaad39d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart University Management System">5b5b283383dd0f58bdfd78c6feaad39d</sys_scope>
+            <sys_update_name>sys_documentation_x_1920019_smart_0_sums_application_u_fee_paid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-13 06:55:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
