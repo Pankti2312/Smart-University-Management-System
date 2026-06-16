@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9f05b48483e94398bdfd78c6feaad32d" label="Student Application" max_length="40" name="x_1920019_smart_0_sums_application" type="collection">
+        <element choice="3" default="b.tech" label="Course" max_length="40" name="u_course" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MBA" sequence="6" value="mba"/>
+                <element inactive_on_update="false" label="MCA" sequence="0" value="MCA"/>
+                <element inactive_on_update="false" label="B.Tech" sequence="4" value="b.tech"/>
+                <element inactive_on_update="false" label="BCA" sequence="1" value="bca"/>
+                <element inactive_on_update="false" label="B.Tech" sequence="0"/>
+                <element inactive_on_update="false" label="B.Tech" sequence="0"/>
+                <element inactive="true" inactive_on_update="true" label="B.Tech" sequence="0"/>
+                <element inactive="true" inactive_on_update="true" label="B.Tech" sequence="0"/>
+                <element inactive_on_update="false" label="BBA" sequence="5" value="bba"/>
+                <element inactive_on_update="false" label="LLB" sequence="7" value="llb"/>
+                <element inactive_on_update="false" label="LLB" sequence="5"/>
+                <element inactive_on_update="false" label="DIPLOMA" sequence="3" value="diploma"/>
+                <element inactive_on_update="false" label="M.Tech" sequence="2" value="m.tech"/>
+                <element inactive_on_update="false" label="BBA" sequence="5"/>
+                <element inactive_on_update="false" label="MCA"/>
+            </choice>
+        </element>
+        <element choice="3" default="Female" label="Gender" max_length="40" name="u_gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="Female"/>
+                <element inactive_on_update="false" label="Other" value="Other"/>
+                <element inactive_on_update="false" label="Male" value="Male"/>
+            </choice>
+        </element>
+        <element label="Documents Verified" max_length="40" name="u_documents_verified" type="boolean"/>
+        <element label="Email" max_length="100" name="u_email" type="string"/>
+        <element choice="3" default="approved" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" value="submitted"/>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Fee Pending" value="fee_pending"/>
+                <element inactive_on_update="false" label="Under Review" value="under_review"/>
+                <element inactive_on_update="false" label="Document Verification" value="doc_verification"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Fee Paid" max_length="40" name="u_fee_paid" type="boolean"/>
+        <element label="DOB" max_length="40" name="u_dob" type="glide_date"/>
+        <element label="Percentage" max_length="20" name="u_percentage" type="decimal"/>
+        <element label="Mobile Number" max_length="20" name="u_mobile_number" type="string"/>
+        <element label="Application Number" max_length="40" name="u_application_number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Student Name" max_length="100" name="u_student_name" type="string"/>
+    </element>
+</database>

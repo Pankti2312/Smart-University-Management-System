@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="34cf669483e50b98bdfd78c6feaad3f0" label="Transport Request" max_length="40" name="x_1920019_smart_0_transport_request" type="collection">
+        <element label="Pickup Location" max_length="100" name="u_pickup_location" type="string"/>
+        <element choice="1" label="Route Selection" max_length="40" name="u_route_selection" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Route A" value="route a"/>
+                <element inactive_on_update="false" label="Route B" value="route b"/>
+                <element inactive_on_update="false" label="Route C" value="route c"/>
+            </choice>
+        </element>
+        <element label="Student" max_length="32" name="u_student" reference="x_1920019_smart_0_student_master" type="reference"/>
+        <index name="index">
+            <element name="u_student"/>
+        </index>
+    </element>
+</database>

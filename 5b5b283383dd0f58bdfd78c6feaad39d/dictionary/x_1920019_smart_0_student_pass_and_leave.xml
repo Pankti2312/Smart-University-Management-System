@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="69913e5083290b98bdfd78c6feaad31f" label="Student Pass and Leave" max_length="40" name="x_1920019_smart_0_student_pass_and_leave" type="collection">
+        <element choice="3" label="Request Type" max_length="40" name="u_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medical Leave" value="medical leave"/>
+                <element inactive_on_update="false" label="Gate Pass" value="gate pass"/>
+                <element inactive_on_update="false" label="Personal Leave" value="personal leave"/>
+                <element inactive_on_update="false" label="Shopping" value="shopping"/>
+            </choice>
+        </element>
+        <element label="Student" max_length="32" name="u_student" reference="x_1920019_smart_0_student_master" type="reference"/>
+        <index name="index">
+            <element name="u_student"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">6a887e5c83690b98bdfd78c6feaad31d</canvas>
+        <component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","chartVariation":"stacked","yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"showClosestSeriesOnHover":true,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"showPercentageOfTotalInTooltip":true,"yAxisHidden":false,"xAxisHidden":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Student Application","sourceType":"table","tableOrViewName":"x_1920019_smart_0_sums_application","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MjAwMTlfc21hcnRfMF9zdW1zX2FwcGxpY2F0aW9uMTc4MTQzNTE1NTkzNA==","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Application Pipeline by Status","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzE5MjAwMTlfc21hcnRfMF9zdW1zX2FwcGxpY2F0aW9uMTc4MTQzNTE1NTkzNA==","id":"ZEdGaWJHVjRYekU1TWpBd01UbGZjMjFoY25SZk1GOXpkVzF6WDJGd2NHeHBZMkYwYVc5dU1UYzRNVFF6TlRFMU5Ua3pOQT09MTc4MTQzNTE2MjYwMQ==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5MjAwMTlfc21hcnRfMF9zdW1zX2FwcGxpY2F0aW9uMTc4MTQzNTE1NTkzNA==","groupByField":"u_application_number","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false},{"groupBy":[{"dataSource":"dGFibGV4XzE5MjAwMTlfc21hcnRfMF9zdW1zX2FwcGxpY2F0aW9uMTc4MTQzNTE1NTkzNA==","groupByField":"u_status","isRange":false,"isChoice":true,"isPaBucket":false}],"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"fje3rgf8","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{}}</component_props>
+        <h>15</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Student Application","code":"PAR_DASHBOARD.6a887e5c83690b98bdfd78c6feaad31d.59adbe1883e90b98bdfd78c6feaad32e"},{"comment":"","message":"Application Pipeline by Status","code":"PAR_DASHBOARD.6a887e5c83690b98bdfd78c6feaad31d.59adbe1883e90b98bdfd78c6feaad32e"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.6a887e5c83690b98bdfd78c6feaad31d.59adbe1883e90b98bdfd78c6feaad32e"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.6a887e5c83690b98bdfd78c6feaad31d.59adbe1883e90b98bdfd78c6feaad32e"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-14 11:13:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59adbe1883e90b98bdfd78c6feaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Smart University Management System" source="x_1920019_smart_0">5b5b283383dd0f58bdfd78c6feaad39d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart University Management System">5b5b283383dd0f58bdfd78c6feaad39d</sys_scope>
+        <sys_update_name>par_dashboard_widget_59adbe1883e90b98bdfd78c6feaad32e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-14 11:13:31</sys_updated_on>
+        <visualization/>
+        <w>17</w>
+        <widget_props/>
+        <x>12</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

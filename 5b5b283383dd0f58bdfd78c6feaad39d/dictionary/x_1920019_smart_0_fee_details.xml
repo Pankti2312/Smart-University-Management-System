@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0c608108836d4398bdfd78c6feaad38b" label="Fee Details" max_length="40" name="x_1920019_smart_0_fee_details" type="collection">
+        <element label="Due Date" max_length="40" name="u_due_date" type="glide_date"/>
+        <element choice="1" label="Payment Status" max_length="40" name="u_payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="Paid" value="paid"/>
+                <element inactive_on_update="false" label="Failed" value="failed"/>
+            </choice>
+        </element>
+        <element label="Transaction ID" max_length="100" name="u_transaction_id" type="string"/>
+        <element label="Fee Amount" max_length="20" name="fee_amount" type="currency"/>
+        <element label="Application" max_length="32" name="u_application" reference="x_1920019_smart_0_sums_application" type="reference"/>
+        <index name="index">
+            <element name="u_application"/>
+        </index>
+    </element>
+</database>

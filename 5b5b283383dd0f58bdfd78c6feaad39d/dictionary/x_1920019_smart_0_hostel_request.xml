@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c34e225c83a50b98bdfd78c6feaad34d" label="Hostel Request" max_length="40" name="x_1920019_smart_0_hostel_request" type="collection">
+        <element label="Student" max_length="32" name="u_student" reference="x_1920019_smart_0_student_master" type="reference"/>
+        <element choice="1" label="Room Type" max_length="40" name="u_room_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AC" value="ac"/>
+                <element inactive_on_update="false" label="Non-AC" value="non-ac"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Allocated" value="allocated"/>
+                <element inactive_on_update="false" label="Requested" value="requested"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_student"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_1920019_smart_0_student_application</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 06:30:51</sys_created_on>
+        <sys_id>7253b4cc83a94398bdfd78c6feaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1920019_smart_0_student_application</sys_name>
+        <sys_package display_value="Smart University Management System" source="x_1920019_smart_0">5b5b283383dd0f58bdfd78c6feaad39d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart University Management System">5b5b283383dd0f58bdfd78c6feaad39d</sys_scope>
+        <sys_update_name>sys_security_acl_7253b4cc83a94398bdfd78c6feaad3f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 06:30:51</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart University Management System">5b5b283383dd0f58bdfd78c6feaad39d</application>
+        <file_path/>
+        <instance_id>77c42b4f1be27514c84543f4bd4bcb32</instance_id>
+        <instance_name>dev219882</instance_name>
+        <name>sys_security_acl_7253b4cc83a94398bdfd78c6feaad3f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_1920019_smart_0_student_application</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-13 06:30:51</sys_created_on><sys_id>7253b4cc83a94398bdfd78c6feaad3f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1920019_smart_0_student_application</sys_name><sys_package display_value="Smart University Management System" source="x_1920019_smart_0">5b5b283383dd0f58bdfd78c6feaad39d</sys_package><sys_policy/><sys_scope display_value="Smart University Management System">5b5b283383dd0f58bdfd78c6feaad39d</sys_scope><sys_update_name>sys_security_acl_7253b4cc83a94398bdfd78c6feaad3f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-13 06:30:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1334828344</payload_hash>
+        <record_name>x_1920019_smart_0_student_application</record_name>
+        <reverted_from/>
+        <source>df5b283383dd0f58bdfd78c6feaad3a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 06:30:52</sys_created_on>
+        <sys_id>8353f4cc83a94398bdfd78c6feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ebfad17c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 06:30:52</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>4353f4cc1fa943987770d3db3129414c</update_guid>
+        <update_guid_history>4353f4cc1fa943987770d3db3129414c:-1334828344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 08:25:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>30386ff4e9cb40728b977bebca2e5ca4</sys_id>
+        <sys_metadata>7253b4cc83a94398bdfd78c6feaad3f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1920019_smart_0_student_application</sys_name>
+        <sys_package display_value="Smart University Management System" source="x_1920019_smart_0">5b5b283383dd0f58bdfd78c6feaad39d</sys_package>
+        <sys_parent display_value="">c24330cc83a94398bdfd78c6feaad3df</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart University Management System">5b5b283383dd0f58bdfd78c6feaad39d</sys_scope>
+        <sys_scope_delete display_value="">51736cf335e84d95ae28a5ec2d6c9831</sys_scope_delete>
+        <sys_update_name>sys_security_acl_7253b4cc83a94398bdfd78c6feaad3f5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_7253b4cc83a94398bdfd78c6feaad3f5">8353f4cc83a94398bdfd78c6feaad34d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 08:25:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

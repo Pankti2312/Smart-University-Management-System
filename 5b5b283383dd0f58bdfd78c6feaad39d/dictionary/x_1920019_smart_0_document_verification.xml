@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4ba9b848832d4398bdfd78c6feaad3da" label="Document Verification" max_length="40" name="x_1920019_smart_0_document_verification" type="collection">
+        <element label="Remarks" max_length="400" name="u_remarks" type="string"/>
+        <element choice="1" label="Document Type" max_length="40" name="u_document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="10th Marksheet" value="10th_marksheet"/>
+                <element inactive_on_update="false" label="National ID" value="national_id"/>
+                <element inactive_on_update="false" label="12th Marksheet" value="12th_marksheet"/>
+                <element inactive_on_update="false" label="Photo" value="photo"/>
+            </choice>
+        </element>
+        <element label="Application" max_length="32" name="u_application" reference="x_1920019_smart_0_sums_application" type="reference"/>
+        <element label="Verified" max_length="40" name="u_verified" type="boolean"/>
+        <index name="index">
+            <element name="u_application"/>
+        </index>
+    </element>
+</database>

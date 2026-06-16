@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="8129c90c83218398bdfd78c6feaad3d4" label="Student Master" max_length="40" name="x_1920019_smart_0_student_master" type="collection">
+        <element label="Roll Number" max_length="40" name="u_roll_number" type="string"/>
+        <element choice="1" label="Course" max_length="40" name="u_course" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MBA" value="mba"/>
+                <element inactive_on_update="false" label="M.Tech" value="m.tech"/>
+                <element inactive_on_update="false" label="B.Tech" value="b.tech"/>
+                <element inactive_on_update="false" label="BCA" value="bca"/>
+                <element inactive_on_update="false" label="DIPLOMA" value="diploma"/>
+                <element inactive_on_update="false" label="MCA" value="mca"/>
+                <element inactive_on_update="false" label="BBA" value="bba"/>
+                <element inactive_on_update="false" label="LLB" value="llb"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="100" name="u_email" type="string"/>
+        <element label="Student ID" max_length="40" name="u_student_id" type="string"/>
+        <element label="Student Name" max_length="100" name="u_student_name" type="string"/>
+    </element>
+</database>
