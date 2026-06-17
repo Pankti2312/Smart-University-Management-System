@@ -10,8 +10,7 @@ The goal of this project is to reduce manual administrative effort, improve proc
 
 ## 🎥 Project Demo
 
-**Demo Video:** ![Project Demo](C:\Users\DELL\OneDrive\Pictures/SUMS_Demo.gif)
-
+**Demo Video:** ![SUMS Demo](Demo/Demo.gif)
 ---
 
 ## 🚀 Key Features
