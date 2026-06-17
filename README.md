@@ -10,7 +10,7 @@ The goal of this project is to reduce manual administrative effort, improve proc
 
 ## 🎥 Project Demo
 
-**Demo Video:** ![SUMS Demo](Demo/Demo.gif)
+ ![Demo Sums](Demo_Sums.gif)
 ---
 
 ## 🚀 Key Features
